@@ -52,7 +52,7 @@ namespace Helper.Library.Sites
         public IWebElement LoginField2 => Driver.FindElement(By.Id("j_username"));
         public IWebElement PasswordField2 => Driver.FindElement(By.Id("j_password"));
         //public IWebElement LoginButton2 => Driver.FindElement(By.Id("submit"));
-        public IWebElement LoginButton2 => Driver.FindElement(By.CssSelector("#Signon > section.antiClickjackContent > div.block-display.clear-both > input"));
+//this methode is not work, r u test it?        public IWebElement LoginButton2 => Driver.FindElement(By.CssSelector("#Signon > section.antiClickjackContent > div.block-display.clear-both > input"));
     }
 
     public class WellsFargoLoginElements : LoginElements
